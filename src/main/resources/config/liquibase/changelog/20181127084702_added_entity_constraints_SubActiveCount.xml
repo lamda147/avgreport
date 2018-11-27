@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity SubActiveCount.
+    -->
+    <changeSet id="20181127084702-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="address_id"
+                                 baseTableName="sub_active_count"
+                                 constraintName="fk_sub_active_count_address_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="addresses"/>
+
+        <addForeignKeyConstraint baseColumnNames="product_id"
+                                 baseTableName="sub_active_count"
+                                 constraintName="fk_sub_active_count_product_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="products"/>
+
+        <addForeignKeyConstraint baseColumnNames="reporttime_id"
+                                 baseTableName="sub_active_count"
+                                 constraintName="fk_sub_active_count_reporttime_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="report_time"/>
+
+        <addForeignKeyConstraint baseColumnNames="unit_id"
+                                 baseTableName="sub_active_count"
+                                 constraintName="fk_sub_active_count_unit_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ouunits"/>
+
+        <addForeignKeyConstraint baseColumnNames="promo_id"
+                                 baseTableName="sub_active_count"
+                                 constraintName="fk_sub_active_count_promo_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="promo_programs"/>
+
+    </changeSet>
+</databaseChangeLog>

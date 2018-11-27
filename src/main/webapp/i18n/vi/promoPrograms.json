@@ -1,0 +1,28 @@
+{
+  "avgReportApp": {
+    "promoPrograms": {
+      "home": {
+        "title": "Promo Programs",
+        "createLabel": "Thêm mới một Promo Programs",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Promo Programs"
+      },
+      "created": "Một Promo Programs mới được tạo với định danh {{ param }}",
+      "updated": "Một Promo Programs cập nhật với định danh {{ param }}",
+      "deleted": "Một Promo Programs đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Promo Programs {{ id }}?"
+      },
+      "detail": {
+        "title": "Promo Programs"
+      },
+      "promoID": "Promo ID",
+      "promoname": "Promoname",
+      "promoUserField1": "Promo User Field 1",
+      "promoUserField2": "Promo User Field 2",
+      "promoUserField3": "Promo User Field 3",
+      "promoDateCreated": "Promo Date Created",
+      "promoLastUpdated": "Promo Last Updated",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}
