@@ -1,0 +1,34 @@
+{
+  "avgReportApp": {
+    "addresses": {
+      "home": {
+        "title": "Addresses",
+        "createLabel": "Create a new Addresses",
+        "createOrEditLabel": "Create or edit a Addresses"
+      },
+      "created": "A new Addresses is created with identifier {{ param }}",
+      "updated": "A Addresses is updated with identifier {{ param }}",
+      "deleted": "A Addresses is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Addresses {{ id }}?"
+      },
+      "detail": {
+        "title": "Addresses"
+      },
+      "addressid": "Addressid",
+      "addressarea": "Addressarea",
+      "addressdistrict": "Addressdistrict",
+      "addresscity": "Addresscity",
+      "addressstate": "Addressstate",
+      "addressuserfield1": "Addressuserfield 1",
+      "addressuserfield2": "Addressuserfield 2",
+      "addressuserfield3": "Addressuserfield 3",
+      "addressuserfield4": "Addressuserfield 4",
+      "addressuserfield5": "Addressuserfield 5",
+      "addressuserfield6": "Addressuserfield 6",
+      "addressDateCreated": "Address Date Created",
+      "addressLastUpdated": "Address Last Updated",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}

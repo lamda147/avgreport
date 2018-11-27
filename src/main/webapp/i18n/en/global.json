@@ -8,6 +8,12 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "addresses": "Addresses",
+        "ouunits": "Ouunits",
+        "products": "Products",
+        "promoPrograms": "Promo Programs",
+        "reportTime": "Report Time",
+        "subActiveCount": "Sub Active Count",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

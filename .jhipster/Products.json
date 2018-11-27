@@ -1,0 +1,63 @@
+{
+    "name": "Products",
+    "fields": [
+        {
+            "fieldName": "prodID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodDesc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subTypeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodUserField1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodUserField2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodUserField3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodUserField4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prodUserField5",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "productDateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "productLastUpdated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181127094058",
+    "entityTableName": "products",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

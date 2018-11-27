@@ -1,0 +1,55 @@
+{
+    "name": "Ouunits",
+    "fields": [
+        {
+            "fieldName": "ouunitid",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ouunitname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentouunit",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "grandparentouunit",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ouunituserfield1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ouunituserfield2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ouunituserfield3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ouunitDateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "ouunitLastUpdated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181127094057",
+    "entityTableName": "ouunits",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

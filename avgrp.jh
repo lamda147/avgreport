@@ -1,0 +1,103 @@
+entity Addresses {
+	addressid String,
+	addressarea String,
+    addressdistrict String,
+    addresscity String,
+    addressstate String,
+    addressuserfield1 String,
+    addressuserfield2 String,
+    addressuserfield3 String,
+    addressuserfield4 String,
+    addressuserfield5 String,
+    addressuserfield6 String,
+    addressDateCreated Instant,
+    addressLastUpdated Instant,
+    isDeleted Boolean,
+
+}
+
+entity Ouunits {
+	ouunitid String,
+	ouunitname String,
+	parentouunit String,
+	grandparentouunit String,
+	ouunituserfield1 String,
+    ouunituserfield2 String,
+    ouunituserfield3 String,
+	ouunitDateCreated Instant,
+    ouunitLastUpdated Instant,
+    isDeleted Boolean
+}
+
+entity Products{
+	prodID String,
+	prodDesc String,
+	prodCode String,
+	subTypeName String,
+	prodUserField1 String,
+    prodUserField2 String,
+    prodUserField3 String,
+    prodUserField4 String,
+    prodUserField5 String,
+	productDateCreated Instant,
+    productLastUpdated Instant,
+    isDeleted Boolean
+}
+
+entity PromoPrograms{
+	promoID String,
+	promoname String,
+	promoUserField1 String,
+    promoUserField2 String,
+    promoUserField3 String,
+	promoDateCreated Instant,
+    promoLastUpdated Instant,
+    isDeleted Boolean
+	
+}
+entity ReportTime{	
+	reportTimeID String,
+	reportTimeHour Integer,
+	reportTimeDay Integer,
+	reportTimeYearWeek Integer,
+	reportTimeMonth Integer,
+	reportTimeYearQuater Integer,
+	reportTimeYear Integer,
+	reportTimeUserField1 String,
+    reportTimeUserField2 String,
+    reportTimeUserField3 String,
+    isDeleted Boolean
+}
+entity SubActiveCount{
+	subActiveCountID String,
+	subActiveCounts Integer,
+	subActiveCountUserField1 String,
+    subActiveCountUserField2 String,
+    subActiveCountUserField3 String,
+    subActiveCountUserField4 String,
+    subActiveCountUserField5 String,
+	subActiveCountDateCreated Instant,
+    subActiveCountLastUpdated Instant,
+    isDeleted Boolean
+}
+relationship OneToOne {
+	SubActiveCount{address} to Addresses,
+	SubActiveCount{product} to Products,
+	SubActiveCount{reporttime} to ReportTime,
+    SubActiveCount{unit} to Ouunits,
+    SubActiveCount{promo} to PromoPrograms
+}
+
+
+// Set pagination options
+//paginate Addresses, Ouunits with infinite-scroll
+paginate SubActiveCount, Addresses, Ouunits, Products with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
