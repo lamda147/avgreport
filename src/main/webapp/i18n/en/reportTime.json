@@ -1,0 +1,31 @@
+{
+  "avgReportApp": {
+    "reportTime": {
+      "home": {
+        "title": "Report Times",
+        "createLabel": "Create a new Report Time",
+        "createOrEditLabel": "Create or edit a Report Time"
+      },
+      "created": "A new Report Time is created with identifier {{ param }}",
+      "updated": "A Report Time is updated with identifier {{ param }}",
+      "deleted": "A Report Time is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Report Time {{ id }}?"
+      },
+      "detail": {
+        "title": "Report Time"
+      },
+      "reportTimeID": "Report Time ID",
+      "reportTimeHour": "Report Time Hour",
+      "reportTimeDay": "Report Time Day",
+      "reportTimeYearWeek": "Report Time Year Week",
+      "reportTimeMonth": "Report Time Month",
+      "reportTimeYearQuater": "Report Time Year Quater",
+      "reportTimeYear": "Report Time Year",
+      "reportTimeUserField1": "Report Time User Field 1",
+      "reportTimeUserField2": "Report Time User Field 2",
+      "reportTimeUserField3": "Report Time User Field 3",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}

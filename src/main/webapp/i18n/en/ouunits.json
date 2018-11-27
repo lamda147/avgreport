@@ -1,0 +1,30 @@
+{
+  "avgReportApp": {
+    "ouunits": {
+      "home": {
+        "title": "Ouunits",
+        "createLabel": "Create a new Ouunits",
+        "createOrEditLabel": "Create or edit a Ouunits"
+      },
+      "created": "A new Ouunits is created with identifier {{ param }}",
+      "updated": "A Ouunits is updated with identifier {{ param }}",
+      "deleted": "A Ouunits is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ouunits {{ id }}?"
+      },
+      "detail": {
+        "title": "Ouunits"
+      },
+      "ouunitid": "Ouunitid",
+      "ouunitname": "Ouunitname",
+      "parentouunit": "Parentouunit",
+      "grandparentouunit": "Grandparentouunit",
+      "ouunituserfield1": "Ouunituserfield 1",
+      "ouunituserfield2": "Ouunituserfield 2",
+      "ouunituserfield3": "Ouunituserfield 3",
+      "ouunitDateCreated": "Ouunit Date Created",
+      "ouunitLastUpdated": "Ouunit Last Updated",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "avgReportApp": {
+    "reportTime": {
+      "home": {
+        "title": "Report Times",
+        "createLabel": "Thêm mới một Report Time",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Report Time"
+      },
+      "created": "Một Report Time mới được tạo với định danh {{ param }}",
+      "updated": "Một Report Time cập nhật với định danh {{ param }}",
+      "deleted": "Một Report Time đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Report Time {{ id }}?"
+      },
+      "detail": {
+        "title": "Report Time"
+      },
+      "reportTimeID": "Report Time ID",
+      "reportTimeHour": "Report Time Hour",
+      "reportTimeDay": "Report Time Day",
+      "reportTimeYearWeek": "Report Time Year Week",
+      "reportTimeMonth": "Report Time Month",
+      "reportTimeYearQuater": "Report Time Year Quater",
+      "reportTimeYear": "Report Time Year",
+      "reportTimeUserField1": "Report Time User Field 1",
+      "reportTimeUserField2": "Report Time User Field 2",
+      "reportTimeUserField3": "Report Time User Field 3",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}

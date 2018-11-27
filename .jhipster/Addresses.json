@@ -1,0 +1,71 @@
+{
+    "name": "Addresses",
+    "fields": [
+        {
+            "fieldName": "addressid",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressarea",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressdistrict",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addresscity",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressstate",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressuserfield1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressuserfield2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressuserfield3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressuserfield4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressuserfield5",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressuserfield6",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addressDateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "addressLastUpdated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181127094056",
+    "entityTableName": "addresses",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

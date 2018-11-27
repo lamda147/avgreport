@@ -1,0 +1,47 @@
+{
+    "name": "PromoPrograms",
+    "fields": [
+        {
+            "fieldName": "promoID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "promoname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "promoUserField1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "promoUserField2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "promoUserField3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "promoDateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "promoLastUpdated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181127094059",
+    "entityTableName": "promo_programs",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

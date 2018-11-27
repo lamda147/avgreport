@@ -1,0 +1,59 @@
+{
+    "name": "ReportTime",
+    "fields": [
+        {
+            "fieldName": "reportTimeID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reportTimeHour",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "reportTimeDay",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "reportTimeYearWeek",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "reportTimeMonth",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "reportTimeYearQuater",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "reportTimeYear",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "reportTimeUserField1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reportTimeUserField2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reportTimeUserField3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20181127094100",
+    "entityTableName": "report_time",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

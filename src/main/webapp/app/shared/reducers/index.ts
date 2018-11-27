@@ -12,6 +12,30 @@ import activate, { ActivateState } from 'app/modules/account/activate/activate.r
 import password, { PasswordState } from 'app/modules/account/password/password.reducer';
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import addresses, {
+  AddressesState
+} from 'app/entities/addresses/addresses.reducer';
+// prettier-ignore
+import ouunits, {
+  OuunitsState
+} from 'app/entities/ouunits/ouunits.reducer';
+// prettier-ignore
+import products, {
+  ProductsState
+} from 'app/entities/products/products.reducer';
+// prettier-ignore
+import promoPrograms, {
+  PromoProgramsState
+} from 'app/entities/promo-programs/promo-programs.reducer';
+// prettier-ignore
+import reportTime, {
+  ReportTimeState
+} from 'app/entities/report-time/report-time.reducer';
+// prettier-ignore
+import subActiveCount, {
+  SubActiveCountState
+} from 'app/entities/sub-active-count/sub-active-count.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -25,6 +49,12 @@ export interface IRootState {
   readonly passwordReset: PasswordResetState;
   readonly password: PasswordState;
   readonly settings: SettingsState;
+  readonly addresses: AddressesState;
+  readonly ouunits: OuunitsState;
+  readonly products: ProductsState;
+  readonly promoPrograms: PromoProgramsState;
+  readonly reportTime: ReportTimeState;
+  readonly subActiveCount: SubActiveCountState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -40,6 +70,12 @@ const rootReducer = combineReducers<IRootState>({
   passwordReset,
   password,
   settings,
+  addresses,
+  ouunits,
+  products,
+  promoPrograms,
+  reportTime,
+  subActiveCount,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

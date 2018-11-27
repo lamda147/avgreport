@@ -1,0 +1,32 @@
+{
+  "avgReportApp": {
+    "products": {
+      "home": {
+        "title": "Products",
+        "createLabel": "Thêm mới một Products",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Products"
+      },
+      "created": "Một Products mới được tạo với định danh {{ param }}",
+      "updated": "Một Products cập nhật với định danh {{ param }}",
+      "deleted": "Một Products đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Products {{ id }}?"
+      },
+      "detail": {
+        "title": "Products"
+      },
+      "prodID": "Prod ID",
+      "prodDesc": "Prod Desc",
+      "prodCode": "Prod Code",
+      "subTypeName": "Sub Type Name",
+      "prodUserField1": "Prod User Field 1",
+      "prodUserField2": "Prod User Field 2",
+      "prodUserField3": "Prod User Field 3",
+      "prodUserField4": "Prod User Field 4",
+      "prodUserField5": "Prod User Field 5",
+      "productDateCreated": "Product Date Created",
+      "productLastUpdated": "Product Last Updated",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}

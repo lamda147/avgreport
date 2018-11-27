@@ -1,0 +1,96 @@
+{
+    "name": "SubActiveCount",
+    "fields": [
+        {
+            "fieldName": "subActiveCountID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subActiveCounts",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "subActiveCountUserField1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subActiveCountUserField2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subActiveCountUserField3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subActiveCountUserField4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subActiveCountUserField5",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "subActiveCountDateCreated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "subActiveCountLastUpdated",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "address",
+            "otherEntityName": "addresses",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "subActiveCount"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "product",
+            "otherEntityName": "products",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "subActiveCount"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "reporttime",
+            "otherEntityName": "reportTime",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "subActiveCount"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "unit",
+            "otherEntityName": "ouunits",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "subActiveCount"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "promo",
+            "otherEntityName": "promoPrograms",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "subActiveCount"
+        }
+    ],
+    "changelogDate": "20181127094101",
+    "entityTableName": "sub_active_count",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

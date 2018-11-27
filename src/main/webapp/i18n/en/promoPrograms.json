@@ -1,0 +1,28 @@
+{
+  "avgReportApp": {
+    "promoPrograms": {
+      "home": {
+        "title": "Promo Programs",
+        "createLabel": "Create a new Promo Programs",
+        "createOrEditLabel": "Create or edit a Promo Programs"
+      },
+      "created": "A new Promo Programs is created with identifier {{ param }}",
+      "updated": "A Promo Programs is updated with identifier {{ param }}",
+      "deleted": "A Promo Programs is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Promo Programs {{ id }}?"
+      },
+      "detail": {
+        "title": "Promo Programs"
+      },
+      "promoID": "Promo ID",
+      "promoname": "Promoname",
+      "promoUserField1": "Promo User Field 1",
+      "promoUserField2": "Promo User Field 2",
+      "promoUserField3": "Promo User Field 3",
+      "promoDateCreated": "Promo Date Created",
+      "promoLastUpdated": "Promo Last Updated",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}
