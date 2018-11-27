@@ -1,0 +1,30 @@
+{
+  "avgReportApp": {
+    "ouunits": {
+      "home": {
+        "title": "Ouunits",
+        "createLabel": "Thêm mới một Ouunits",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Ouunits"
+      },
+      "created": "Một Ouunits mới được tạo với định danh {{ param }}",
+      "updated": "Một Ouunits cập nhật với định danh {{ param }}",
+      "deleted": "Một Ouunits đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Ouunits {{ id }}?"
+      },
+      "detail": {
+        "title": "Ouunits"
+      },
+      "ouunitid": "Ouunitid",
+      "ouunitname": "Ouunitname",
+      "parentouunit": "Parentouunit",
+      "grandparentouunit": "Grandparentouunit",
+      "ouunituserfield1": "Ouunituserfield 1",
+      "ouunituserfield2": "Ouunituserfield 2",
+      "ouunituserfield3": "Ouunituserfield 3",
+      "ouunitDateCreated": "Ouunit Date Created",
+      "ouunitLastUpdated": "Ouunit Last Updated",
+      "isDeleted": "Is Deleted"
+    }
+  }
+}

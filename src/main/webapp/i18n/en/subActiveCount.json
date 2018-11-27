@@ -1,0 +1,35 @@
+{
+  "avgReportApp": {
+    "subActiveCount": {
+      "home": {
+        "title": "Sub Active Counts",
+        "createLabel": "Create a new Sub Active Count",
+        "createOrEditLabel": "Create or edit a Sub Active Count"
+      },
+      "created": "A new Sub Active Count is created with identifier {{ param }}",
+      "updated": "A Sub Active Count is updated with identifier {{ param }}",
+      "deleted": "A Sub Active Count is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Sub Active Count {{ id }}?"
+      },
+      "detail": {
+        "title": "Sub Active Count"
+      },
+      "subActiveCountID": "Sub Active Count ID",
+      "subActiveCounts": "Sub Active Counts",
+      "subActiveCountUserField1": "Sub Active Count User Field 1",
+      "subActiveCountUserField2": "Sub Active Count User Field 2",
+      "subActiveCountUserField3": "Sub Active Count User Field 3",
+      "subActiveCountUserField4": "Sub Active Count User Field 4",
+      "subActiveCountUserField5": "Sub Active Count User Field 5",
+      "subActiveCountDateCreated": "Sub Active Count Date Created",
+      "subActiveCountLastUpdated": "Sub Active Count Last Updated",
+      "isDeleted": "Is Deleted",
+      "address": "Address",
+      "product": "Product",
+      "reporttime": "Reporttime",
+      "unit": "Unit",
+      "promo": "Promo"
+    }
+  }
+}

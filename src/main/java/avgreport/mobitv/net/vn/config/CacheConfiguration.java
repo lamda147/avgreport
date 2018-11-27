@@ -38,6 +38,12 @@ public class CacheConfiguration {
             cm.createCache(avgreport.mobitv.net.vn.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(avgreport.mobitv.net.vn.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(avgreport.mobitv.net.vn.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(avgreport.mobitv.net.vn.domain.Addresses.class.getName(), jcacheConfiguration);
+            cm.createCache(avgreport.mobitv.net.vn.domain.Ouunits.class.getName(), jcacheConfiguration);
+            cm.createCache(avgreport.mobitv.net.vn.domain.Products.class.getName(), jcacheConfiguration);
+            cm.createCache(avgreport.mobitv.net.vn.domain.PromoPrograms.class.getName(), jcacheConfiguration);
+            cm.createCache(avgreport.mobitv.net.vn.domain.ReportTime.class.getName(), jcacheConfiguration);
+            cm.createCache(avgreport.mobitv.net.vn.domain.SubActiveCount.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

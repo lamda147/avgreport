@@ -1,0 +1,35 @@
+{
+  "avgReportApp": {
+    "subActiveCount": {
+      "home": {
+        "title": "Sub Active Counts",
+        "createLabel": "Thêm mới một Sub Active Count",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Sub Active Count"
+      },
+      "created": "Một Sub Active Count mới được tạo với định danh {{ param }}",
+      "updated": "Một Sub Active Count cập nhật với định danh {{ param }}",
+      "deleted": "Một Sub Active Count đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Sub Active Count {{ id }}?"
+      },
+      "detail": {
+        "title": "Sub Active Count"
+      },
+      "subActiveCountID": "Sub Active Count ID",
+      "subActiveCounts": "Sub Active Counts",
+      "subActiveCountUserField1": "Sub Active Count User Field 1",
+      "subActiveCountUserField2": "Sub Active Count User Field 2",
+      "subActiveCountUserField3": "Sub Active Count User Field 3",
+      "subActiveCountUserField4": "Sub Active Count User Field 4",
+      "subActiveCountUserField5": "Sub Active Count User Field 5",
+      "subActiveCountDateCreated": "Sub Active Count Date Created",
+      "subActiveCountLastUpdated": "Sub Active Count Last Updated",
+      "isDeleted": "Is Deleted",
+      "address": "Address",
+      "product": "Product",
+      "reporttime": "Reporttime",
+      "unit": "Unit",
+      "promo": "Promo"
+    }
+  }
+}
